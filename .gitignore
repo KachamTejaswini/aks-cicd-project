@@ -1,0 +1,40 @@
+# ----------------------------
+# Terraform
+# ----------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# ----------------------------
+# Environment / Secrets
+# ----------------------------
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
